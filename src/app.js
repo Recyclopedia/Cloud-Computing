@@ -183,9 +183,8 @@ app.get('/predict/histories', async (req, res) => {
                     confidenceScore: data.confidenceScore,
                     result: data.result,
                     createdAt: data.createdAt,
-                    id: data.id,
                     result: data.result,
-                    poin: data.point
+                    poin: data.points
                 }
             };
         });
